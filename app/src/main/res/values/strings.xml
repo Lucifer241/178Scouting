@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Scouting 2018</string>
+    <string name="title_activity_home_page">activity_home_page</string>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="MainInstructions">Enter the team you are scouting and the match number below ^.^</string>
+    <string name="submitButton">Submit</string>
+    <string name="carefulNote">Note: Please be very careful when you are scouting!
+                            This is not just Busy Work and bad data hurts the team :(</string>
+
+    <string name="Decrease">Decrease</string>
+    <string name="Increase">Increase</string>
+
+    <string name="AutonomousDirections">Welcome to Autonomous! Scout how you were taught
+                                        then click submit when you are done to move on to
+                                        TeleOp!</string>
+    <string name="TeleopDirections">TeleOp Time, Same as before! Scout as you were taught
+                                    then click submit when the match ends. The app will
+                                    restart for the next round.</string>
+    <string name="rSwitch">Red Switch</string>
+    <string name="bSwitch">Blue Switch</string>
+    <string name="Scale">Scale</string>
+    <string name="Exchange">Exchange</string>
+    <string name="lineCross">Robot Crosses the Line?</string>
+    <string name="potato">Potato?</string>
+    <string name="climb">Robot successfully climbs?</string>
+    <string name="climbSupport">Robot successfully offers climb support?</string>
+</resources>

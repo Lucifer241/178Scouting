@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:gridSpec="1|8|#000000ff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r"
+    tools:context="test.scouting2018.HomePage"
+    android:id="@+id/activity_home_page">
+
+    <TextView
+        android:text="Enter the team you are scouting and the match number below ^.^"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:hint="Team Number"
+        android:id="@+id/teamNum"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:hint="Match Number"
+        android:id="@+id/matchNum"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="Note: Please be very careful when you are scouting! This is not just Busy Work and bad data hurts the team :("
+        android:id="@+id/CarefulNote"
+        android:layout_height="wrap_content"
+        android:layout_width="600dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="Oi!!"
+        android:id="@+id/Warning1"
+        android:layout_height="wrap_content"
+        android:layout_width="600dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="On the Auto and Tele screen be sure to only hit decrease if you made a mistake by increasing too much!"
+        android:id="@+id/Warning2"
+        android:layout_height="wrap_content"
+        android:layout_width="600dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="Red Switch refers to both sides of the switch on Red Alliance's side of the field. Blue Switch is the same but for Blue Alliance."
+        android:id="@+id/Warning3"
+        android:layout_height="wrap_content"
+        android:layout_width="600dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:text="You WILL hit increase if it goes into either side of either switch."
+        android:id="@+id/Warning4"
+        android:layout_height="wrap_content"
+        android:layout_width="600dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <CheckBox
+        android:id="@+id/rAlliance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Red Alliance" />
+
+    <CheckBox
+        android:id="@+id/bAlliance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Blue Alliance" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:text="If what was said above doesn't make sense, then try this:          We're looking for how many times they put a cube in a certain side's (Alliance's) switch on the field."
+        android:id="@+id/Clarify"
+        android:layout_height="wrap_content"
+        android:layout_width="600dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>

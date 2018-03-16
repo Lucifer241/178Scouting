@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teleop_scouting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.scouting2018.TeleScouting"
+    tools:gridSpec="1|8|#000000ff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="TeleOp Time, Same as before! Scout as you were taught then click submit when the match ends. The app will restart for the next round."
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Red Switch"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <Button
+            android:id="@+id/decreaseRSwitch"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:text="Decrease"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/increaseRSwitch"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:text="Increase"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/RSwitchTicker"
+            android:layout_width="150dp"
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Blue Switch"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <Button
+            android:id="@+id/decreaseBSwitch"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:text="Decrease"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/increaseBSwitch"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:text="Increase"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/BSwitchTicker"
+            android:layout_width="150dp"
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Scale"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <Button
+            android:id="@+id/decreaseScale"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:text="Decrease"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/increaseScale"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:text="Increase"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/ScaleTicker"
+            android:layout_width="150dp"
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Exchange"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <Button
+            android:id="@+id/decreaseExchange"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:text="Decrease"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/increaseExchange"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:text="Increase"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/TeleExchangeTicker"
+            android:layout_width="150dp"
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <CheckBox
+            android:id="@+id/Climb"
+            android:layout_width="275dp"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:text="Climb Without Levitate or Support" />
+
+        <Space
+            android:layout_width="75dp"
+            android:layout_column="1" />
+
+        <CheckBox
+            android:id="@+id/potato"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:text="Potato" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <CheckBox
+            android:id="@+id/climbSupport"
+            android:layout_width="275dp"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:text="Climb Support" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/submitTele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Submit" />
+
+</LinearLayout>
